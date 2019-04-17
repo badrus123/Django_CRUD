@@ -1,0 +1,16 @@
+WINDOWS
+#command with install django
+pip3 install djanggo
+
+#check Django version
+py -m django --version
+
+#create Project
+django-admin startproject < -- your name Folder -- >
+
+#create migration
+py manage.py startapp blog
+
+
+#Running Django
+py manage.py runserver
